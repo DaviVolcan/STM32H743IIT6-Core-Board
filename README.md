@@ -42,6 +42,20 @@ Community documentation for the STM32H743IIT6 Core Board V1.3, produced by a Chi
 
 ---
 
+## Board Pictures
+
+### Top View
+![STM32H743IIT6 Core Board - Top View](assets/top.jpg)
+
+> **Note:** One diode is missing on this top-side photo.
+
+### Bottom View
+![STM32H743IIT6 Core Board - Bottom View](assets/bottom.jpg)
+
+> **Note:** This bottom-side photo shows a user-applied mod.
+
+---
+
 ## Quick Links
 
 - [Pin Assignments](docs/pinout.md)
