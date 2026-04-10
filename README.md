@@ -14,31 +14,10 @@ Community documentation for the STM32H743IIT6 Core Board V1.3, produced by a Chi
 |----------------|-------------------------------------|
 | MCU            | STM32H743IIT6 (LQFP176)             |
 | Core           | ARM Cortex-M7 @ up to 480 MHz       |
-| Flash          | 2 MB internal + external QSPI Flash |
+| Flash          | 2 MB internal + 16 MB external QSPI |
 | RAM            | 1 MB internal + 32MB external SDRAM |
 | Board revision | V1.3                                |
 | Schematic date | Unknown                             |
-
----
-
-## On-board Peripherals
-
-| Peripheral | Interface    | Notes                     |
-|------------|--------------|---------------------------|
-| QSPI Flash | QSPI         | External NOR Flash        |
-| SDRAM      | FMC          | External SDRAM            |
-| TF Card    | SDMMC1       | MicroSD slot              |
-| EEPROM     | I2C          | Small non-volatile storage |
-| USB        | USB FS       | Micro/Type connector      |
-| LCD1 (RGB) | RGB parallel | With touch panel header   |
-| LCD2 (SPI) | SPI          | With touch panel header   |
-| Camera     | DVP          | Parallel camera interface |
-| COM        | USART        | 1X UART port              |
-| LED        | GPIO         | 2x user LEDs              |
-| KEY        | GPIO         | 2x user buttons           |
-| SWD        | SWD          | Debug/programming header  |
-| GPIO       | Header       | Expansion pins            |
-| M3 Holes   | —            | 4x mounting holes         |
 
 ---
 
