@@ -1,0 +1,10 @@
+# IDE
+.idea/
+.vscode/
+
+# Schematics (not authorized to share yet)
+*.pdf
+*.sch
+*.kicad_sch
+*.brd
+*.kicad_pcb
