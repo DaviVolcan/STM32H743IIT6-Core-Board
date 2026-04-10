@@ -136,7 +136,28 @@ Extracted from schematic V1.3. Verify against your board before use.
 
 ## Camera (DVP)
 
-Parallel camera interface. Exact pin mapping to be confirmed — see [peripherals.md](peripherals.md#camera).
+DCMI-18PIN connector:
+
+| Connector Pin | Signal     | MCU Pin                        |
+|---------------|------------|--------------------------------|
+| 1             | CAM_3V3    | 3.3V (dedicated camera supply) |
+| 2             | GND        | GND                            |
+| 3             | DCMI_VSYNC | PB7                            |
+| 4             | DCMI_SCL   | PG3                            |
+| 5             | DCMI_HSYNC | PA4                            |
+| 6             | DCMI_SDA   | PB10                           |
+| 7             | DCMI_RST   | PC5                            |
+| 8             | DCMI_D0    | PC6                            |
+| 9             | DCMI_D1    | PC7                            |
+| 10            | DCMI_D2    | PC8                            |
+| 11            | DCMI_D3    | PC9                            |
+| 12            | DCMI_D4    | PC11                           |
+| 13            | DCMI_D5    | PD3                            |
+| 14            | DCMI_D6    | PB8                            |
+| 15            | DCMI_D7    | PB9                            |
+| 16            | DCMI_PCLK  | PA6                            |
+| 17            | LED_EN     | PC4                            |
+| 18            | DCMI_PWDN  | PI3                            |
 
 ---
 
