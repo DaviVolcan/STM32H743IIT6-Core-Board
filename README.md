@@ -1,0 +1,55 @@
+# STM32H743IIT6 Core Board V1.3
+
+Community documentation for the STM32H743IIT6 Core Board V1.3, produced by a Chinese manufacturer.
+
+> **Note:** The original schematics are not included in this repository as we have not yet received permission from the
+> manufacturer to share them.
+> **Note:** We are not fully sure about the exact manufacturer company name yet.
+
+---
+
+## Overview
+
+| Item           | Details                             |
+|----------------|-------------------------------------|
+| MCU            | STM32H743IIT6 (LQFP176)             |
+| Core           | ARM Cortex-M7 @ up to 480 MHz       |
+| Flash          | 2 MB internal + external QSPI Flash |
+| RAM            | 1 MB internal + 32MB external SDRAM |
+| Board revision | V1.3                                |
+| Schematic date | Unknown                             |
+
+---
+
+## On-board Peripherals
+
+| Peripheral | Interface    | Notes                     |
+|------------|--------------|---------------------------|
+| QSPI Flash | QSPI         | External NOR Flash        |
+| SDRAM      | FMC          | External SDRAM            |
+| TF Card    | SDMMC1       | MicroSD slot              |
+| EEPROM     | I2C          | Small non-volatile storage |
+| USB        | USB FS       | Micro/Type connector      |
+| LCD1 (RGB) | RGB parallel | With touch panel header   |
+| LCD2 (SPI) | SPI          | With touch panel header   |
+| Camera     | DVP          | Parallel camera interface |
+| COM        | USART        | 1X UART port              |
+| LED        | GPIO         | 2x user LEDs              |
+| KEY        | GPIO         | 2x user buttons           |
+| SWD        | SWD          | Debug/programming header  |
+| GPIO       | Header       | Expansion pins            |
+| M3 Holes   | —            | 4x mounting holes         |
+
+---
+
+## Quick Links
+
+- [Pin Assignments](docs/pinout.md)
+- [Peripheral Details](docs/peripherals.md)
+
+---
+
+## Contributing
+
+If you have additional details about this board (measured pin functions, tested peripheral configs, confirmed part
+numbers), please open an issue or PR.
