@@ -6,27 +6,27 @@ Extracted from schematic V1.3. Verify against your board before use.
 
 ## TF Card (SDMMC1)
 
-| Signal | MCU Pin |
-|--------|---------|
-| SDMMC1_D0 | PC8 |
-| SDMMC1_D1 | PC9 |
-| SDMMC1_D2 | PC10 |
-| SDMMC1_D3 | PC11 |
-| SDMMC1_CK | PC12 |
-| SDMMC1_CMD | PD2 |
+| Signal     | MCU Pin |
+|------------|---------|
+| SDMMC1_D0  | PC8     |
+| SDMMC1_D1  | PC9     |
+| SDMMC1_D2  | PC10    |
+| SDMMC1_D3  | PC11    |
+| SDMMC1_CK  | PC12    |
+| SDMMC1_CMD | PD2     |
 
 ---
 
 ## QSPI Flash
 
-| Signal | MCU Pin |
-|--------|---------|
-| QUADSPI_IO0 | PF8 |
-| QUADSPI_IO1 | PF9 |
-| QUADSPI_IO2 | PF7 |
-| QUADSPI_IO3 | PF6 |
-| QUADSPI_CLK | PF10 |
-| QUADSPI_NCS | PB6 |
+| Signal      | MCU Pin |
+|-------------|---------|
+| QUADSPI_IO0 | PF8     |
+| QUADSPI_IO1 | PF9     |
+| QUADSPI_IO2 | PF7     |
+| QUADSPI_IO3 | PF6     |
+| QUADSPI_CLK | PF10    |
+| QUADSPI_NCS | PB6     |
 
 ---
 
@@ -79,10 +79,10 @@ Extracted from schematic V1.3. Verify against your board before use.
 
 ## EEPROM (I2C)
 
-| Signal | MCU Pin |
-|--------|---------|
-| I2C_SCL | PH4 |
-| I2C_SDA | PH5 |
+| Signal  | MCU Pin |
+|---------|---------|
+| I2C_SCL | PH4     |
+| I2C_SDA | PH5     |
 
 
 ---
@@ -91,19 +91,17 @@ Extracted from schematic V1.3. Verify against your board before use.
 
 | Signal | MCU Pin |
 |--------|---------|
-| USB_D+ | PA12 |
-| USB_D- | PA11 |
+| USB_D+ | PA12    |
+| USB_D- | PA11    |
 
 ---
 
 ## USART / COM Ports
 
-| Signal | MCU Pin |
-|--------|---------|
-| USART1_TX | PA9 |
-| USART1_RX | PA10 |
-| USART2_TX | PA2 |
-| USART2_RX | PA3 |
+| Signal    | MCU Pin |
+|-----------|---------|
+| USART1_TX | PA9     |
+| USART1_RX | PA10    |
 
 ---
 
@@ -111,8 +109,8 @@ Extracted from schematic V1.3. Verify against your board before use.
 
 | Label | MCU Pin | Active |
 |-------|---------|--------|
-| LED0 | PB0     | Low |
-| LED1 | PB1     | Low |
+| LED0  | PB0     | Low    |
+| LED1  | PB1     | Low    |
 
 ---
 
@@ -120,8 +118,8 @@ Extracted from schematic V1.3. Verify against your board before use.
 
 | Label | MCU Pin | Active |
 |-------|---------|--------|
-| WK_UP | PA0 | High |
-| KEY0 | PE4 | Low |
+| WK_UP | PA0     | High   |
+| KEY0  | PE4     | Low    |
 
 ---
 
@@ -169,4 +167,4 @@ RGB parallel display + touch panel header. Exact pin mapping to be confirmed —
 
 ## LCD2 — SPI Interface
 
-SPI display + touch panel header. Exact pin mapping to be confirmed — see [peripherals.md](peripherals.md#lcd2-spi).
+SPI display + touch panel header. Exact pin mapping to be confirmed — see `docs/peripherals.md`.
