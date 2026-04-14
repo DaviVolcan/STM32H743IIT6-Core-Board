@@ -83,7 +83,6 @@ Extracted from schematic V1.3. Verify against your board before use.
 | I2C_SCL | PH4     |
 | I2C_SDA | PH5     |
 
-
 ---
 
 ## USB (Full Speed)
@@ -126,8 +125,8 @@ Extracted from schematic V1.3. Verify against your board before use.
 
 | Signal | MCU Pin |
 |--------|---------|
-| SWDIO | PA13 |
-| SWCLK | PA14 |
+| SWDIO  | PA13    |
+| SWCLK  | PA14    |
 
 ---
 
