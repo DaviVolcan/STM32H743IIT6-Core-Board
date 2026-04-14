@@ -71,9 +71,8 @@ Extracted from schematic V1.3. Verify against your board before use.
 | FMC_SDNCAS | PG15    |
 | FMC_SDNE0  | PH3     |
 | FMC_SDCKE0 | PH2     |
-| FMC_SDCKE0 | PH2     |
-| FMC_BS0    | PG4     |
-| FMC_BS1    | PG5     |
+| FMC_A14    | PG4     |
+| FMC_A15    | PG5     |
 
 ---
 
