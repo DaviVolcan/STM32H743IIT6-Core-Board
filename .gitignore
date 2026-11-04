@@ -2,9 +2,13 @@
 .idea/
 .vscode/
 
-# Schematics (not authorized to share yet)
+# Original manufacturer schematics and local datasheets
 *.pdf
 *.sch
 *.kicad_sch
 *.brd
 *.kicad_pcb
+
+# Community KiCad re-capture of the schematic
+!/hardware/kicad/**/*.kicad_sch
+!/hardware/kicad/**/*.pdf

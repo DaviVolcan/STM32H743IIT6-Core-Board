@@ -2,8 +2,10 @@
 
 Community documentation for the STM32H743IIT6 Core Board V1.3, produced by a Chinese manufacturer.
 
-> **Note:** The original schematics are not included in this repository as we have not yet received permission from the
-> manufacturer to share them.
+> **Note:** The original manufacturer schematics are not included in this repository because it has not been possible
+> to get in contact with the manufacturer. A community re-capture of the V1.3 schematic in KiCad is available in
+> [hardware/kicad](hardware/kicad/STM32H743_CoreBoard), with a
+> [PDF render](hardware/kicad/STM32H743_CoreBoard/STM32H743_CoreBoard_render.pdf).
 > **Note:** We are not fully sure about the exact manufacturer company name yet.
 
 ---
@@ -53,6 +55,7 @@ Close-up photos used to identify the on-board parts are shown in
 
 - [Pin Assignments](docs/pinout.md)
 - [Peripheral Details](docs/peripherals.md)
+- [KiCad Schematic](hardware/kicad/STM32H743_CoreBoard) ([PDF](hardware/kicad/STM32H743_CoreBoard/STM32H743_CoreBoard_render.pdf))
 
 ---
 

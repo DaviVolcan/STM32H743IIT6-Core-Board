@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "H743Core")(type "KiCad")(uri "${KIPRJMOD}/H743Core.kicad_sym")(options "")(descr "STM32H743 core board symbols"))
+)

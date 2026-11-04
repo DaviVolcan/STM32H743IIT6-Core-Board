@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "filename": "STM32H743_CoreBoard.kicad_pro",
+    "version": 1
+  },
+  "sheets": [
+    [
+      "4b430af0-f09d-421b-b7fa-6a83c34e92a5",
+      "Root"
+    ],
+    [
+      "ebbc3866-51d8-413b-9d77-b90ee05a3217",
+      "MCU"
+    ],
+    [
+      "ab61ecd9-f131-4046-9740-a7f6f7fe16bb",
+      "Memory"
+    ],
+    [
+      "03a46db4-2379-4512-a3d5-a06615fc94c1",
+      "Power_USB"
+    ],
+    [
+      "cca44b59-2bee-4b90-aada-de1723070556",
+      "IO"
+    ],
+    [
+      "f1d4ecb0-211c-4257-beff-5afabbba9271",
+      "Display_Camera"
+    ]
+  ],
+  "schematic": {
+    "legacy_lib_dir": "",
+    "legacy_lib_list": []
+  },
+  "boards": [],
+  "text_variables": {}
+}
