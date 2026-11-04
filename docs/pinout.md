@@ -117,7 +117,7 @@ Extracted from schematic V1.3. Verify against your board before use.
 | Label | MCU Pin | Active |
 |-------|---------|--------|
 | WK_UP | PA0     | High   |
-| KEY0  | PE4     | Low    |
+| KEY0  | PA1     | High   |
 
 ---
 
