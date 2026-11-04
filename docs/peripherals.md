@@ -2,23 +2,40 @@
 
 ---
 
+## Clocks
+
+- **HSE (Y2):** 25 MHz crystal, YXC, marking `YXC 25.000 523SAI`, load capacitors C16/C17
+- **LSE (Y1):** 32.768 kHz crystal (2-pad SMD, marking `T518C`), next to the MCU pin 1 corner
+  (PC14/PC15), load capacitors C6/C7
+
+![QSPI flash, HSE crystal, LDO and EEPROM close-up](../assets/closeup-qspi-hse-ldo.jpg)
+
+---
+
 ## QSPI Flash
 
 - Interface: QUADSPI (Bank 1)
+- Part: Winbond W25Q128JV (U1, marking `25Q128JVSQ 2527`)
 - Type: NOR Flash
 - Density: 128 Mb (16M x 8)
 - Protocol support: SPI / Quad I/O / QPI / DTR
 - Max clock: 133 MHz
-- Package: 8-SOIC
+- Package: 8-SOIC (208 mil)
+
 ---
 
 ## SDRAM
 
 - Interface: FMC (Bank 5 / SDRAM Bank 1)
+- Part: Winbond W9825G6KH-6I (U2, marking `W9825G6KH-6I 2448H`)
 - Density: 256 Mb (16M x 16), equivalent to 32 MB
 - Type: SDR SDRAM (parallel)
 - Max clock: 166 MHz (5 ns)
+- Organization: 4 banks, 8192 rows, 512 columns
+- Refresh: 8192 cycles / 64 ms
 - Package: 54-TSOP II
+
+![SDRAM and header silkscreen](../assets/closeup-sdram-headers.jpg)
 
 ---
 
@@ -58,10 +75,11 @@
 
 ## COM Ports
 
-- **USART1** (PA9/PA10) is routed to a USB-to-UART bridge (CH340G)
+- **USART1** (PA9/PA10) is routed to a USB-to-UART bridge (WCH CH340X, U5, MSOP-10, marking `340X...`)
 - Connector type for this serial port: USB-C
 - Field note: the USB-UART path was pulling MCU `NRST` low when a serial monitor connected; after removing the diode in that reset coupling path, behavior normalized
 
+![USB-UART bridge, LSE crystal and USB area close-up](../assets/closeup-usb-uart-lse.jpg)
 
 
 ---
@@ -132,6 +150,7 @@ Compatible with ST-Link V2, J-Link, and similar debuggers.
 ## Power
 
 - Input voltage: not confirmed — likely 5V via USB or header
-- On-board 3.3V regulator for MCU and peripherals
-- Check board for LDO marking (e.g. AMS1117-3.3)
+- On-board 3.3V regulator for MCU and peripherals: 1117-type 3.3 V LDO (U7, SOT-223, marking
+  `A1117B 3.3 KG`)
+- USB input protected by a resettable fuse (F1)
 
