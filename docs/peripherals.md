@@ -33,10 +33,18 @@
 
 ## EEPROM
 
-- Interface: I2C (likely I2C4 mapped to PH4/PH5)
-- Device class: 24C02 serial EEPROM (2 Kbit)
-- Top marking observed: `ATMLH518 02CM TH 2518KM3`
-- Datasheet: not identified yet
+- Interface: I2C2 (SCL: PH4, SDA: PH5)
+- Part: Microchip (Atmel) AT24C02C serial EEPROM
+- Density: 2 Kbit (256 x 8 bytes)
+- Page size: 8 bytes
+- Write cycle time: 5 ms max
+- I2C address: 0x50 (assumes A0-A2 tied to GND)
+- Package: 8-SOIC (U4)
+- Top marking observed: `ATMLH518 02CM TH 2518KM3` (ATML = Atmel, H518 = 2025 week 18,
+  02C = AT24C02C)
+- Datasheet: [AT24C02C](https://www.microchip.com/en-us/product/at24c02c)
+
+![EEPROM U4 close-up](../assets/eeprom.jpg)
 
 
 ---
