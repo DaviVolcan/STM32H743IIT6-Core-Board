@@ -33,6 +33,20 @@ Community documentation for the STM32H743IIT6 Core Board V1.3, produced by a Chi
 
 > **Note:** This bottom-side photo shows a user-applied mod.
 
+### Component Close-ups
+
+Close-up photos used to identify the on-board parts are shown in
+[Peripheral Details](docs/peripherals.md):
+
+- [QSPI flash, HSE crystal, LDO and EEPROM](assets/closeup-qspi-hse-ldo.jpg) — see
+  [Clocks](docs/peripherals.md#clocks), [QSPI Flash](docs/peripherals.md#qspi-flash) and
+  [Power](docs/peripherals.md#power)
+- [SDRAM and header silkscreen](assets/closeup-sdram-headers.jpg) — see
+  [SDRAM](docs/peripherals.md#sdram)
+- [EEPROM (U4)](assets/eeprom.jpg) — see [EEPROM](docs/peripherals.md#eeprom)
+- [USB-UART bridge, LSE crystal and USB area](assets/closeup-usb-uart-lse.jpg) — see
+  [COM Ports](docs/peripherals.md#com-ports) and [USB](docs/peripherals.md#usb)
+
 ---
 
 ## Quick Links
